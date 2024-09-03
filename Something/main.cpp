@@ -7,8 +7,12 @@
 
 #include <iostream>
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
-    return 0;
+void gameLoop(bool running) {
+    while (true){
+        std::cout << "Hello, World!\n";
+    }
 }
+
+int main(int argc, const char * argv[]) {
+    gameLoop(true);
+    }
